@@ -116,7 +116,6 @@ The Reachable Model is the final product of $\mathcal{M}_I$ after being optimize
 $\mathcal{M}_R$ is not just a static collection of parameters; it is the physical carrier of the Behavioral Manifold. It contains the complete spectrum of behavior the model can exhibit under all possible valid inputs.
 
 - Totality of Behavior: $\mathcal{M}_R$ contains all abilities acquired by the model, including Emergent Abilities unforeseen by designers, as well as potential hallucinations or harmful biases.
-
 - Black Box Nature: The training process transforms the transparent architecture ($\mathcal{M}_I$) into an opaque complex system ($\mathcal{M}_R$). Due to the non-convex optimization nature of deep learning, $\mathcal{M}_R$ often deviates from the logical predictions of $\mathcal{M}_C$, becoming a true "Black Box."
 
 In short, $\mathcal{M}_R$ is the "solidified reality" formed by $\mathcal{M}_I$ under the erosion of data.
