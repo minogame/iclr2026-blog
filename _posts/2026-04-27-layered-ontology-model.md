@@ -1,7 +1,7 @@
 ---
 layout: distill
 title: The Layered Ontology of Models, Resolving the Epistemological Crisis of AI
-description: Your blog post's abstract.
+description: We propose a five-layer model framework and discuss the concepts of Meaning and Truth in the era of large models through two thought experiments.
 date: 2026-04-27
 future: true
 htmlwidgets: true
@@ -251,7 +251,7 @@ If we are willing to admit the inevitability of hallucination and cannot always 
 
 Our exploration of the five-layer ontology reveals a fundamental rupture in the essence of Artificial Intelligence: we have moved out of the deterministic era where "Form $\mathcal{M}_I$ strictly determines Content $\mathcal{M}_R$," and entered a new epoch where Emergence and Alienation coexist.
 
-Through the phenomenological reconstruction of the "Stochastic Chinese Room," we discover that Meaning is no longer the transmission of authorial intent, but the Observer's projection onto the topological structure of the probabilistic manifold. Through the "Paradox of the Two Poetics," we witness the power to define Truth shifting from the Archaeology of History to the Synthesis of Logic.
+Through the phenomenological reconstruction of the "Stochastic Chinese Room," we discover that **Meaning** is no longer the transmission of authorial intent, but the Observer's projection onto the topological structure of the probabilistic manifold. Through the "Paradox of the Two Poetics," we witness the power to define **Truth** shifting from the Archaeology of History to the Synthesis of Logic.
 
 However, the core warning of this paper lies in the Dual Reign of the $\mathcal{M}_O$. We are falling into a dangerous epistemological closed loop: our observation tools not only physically prune the potential of models (Goodhart’s Collapse), but philosophically impoverish our definition of intelligence (Epistemic Retrofitting). Our greatest risk is not creating uncontrollable super-intelligence, but creating a closed "Hyperreal" illusion—a fantasy where only what can be measured by benchmarks is called intelligence, and only what fits logical expectations is called truth, while the chaotic but real noumenal world is systematically forgotten.
 
