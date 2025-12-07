@@ -93,9 +93,9 @@ On one hand, the existence of $\mathcal{M}_N$ is grounded in the basic assumptio
 
 The Conceptual Model comprises the intended design, specified architecture, underlying theories, theoretical assumptions, chosen algorithms, and the high-level goals the system is meant to achieve, as envisioned by its human creators.
 
-Following the Kantian inspiration, the human mind actively structures experience through a priori categories of understanding (e.g., causality, unity) to make sense of the phenomenal world (_Critique of Pure Reason, B1-B2, A70/B95-A83/B109_). Therefore, $\mathcal{M}_C$ imposes a conceptual structure onto a problem domain or desired functionality. Specifically, it contains: i) the system’s high-level objectives (e.g., the form of loss functions); ii) the theoretical assumptions guiding its operation (e.g., assumptions about data and learning processes); iii) the selected algorithms and data structures; and iv) the overall formal description of the system, acting as Kantian schemata that mediate between pure concepts and observations.
+Following the Kantian inspiration, the human mind actively structures experience through a priori categories of understanding (_e.g._, causality, unity) to make sense of the phenomenal world (_Critique of Pure Reason, B1-B2, A70/B95-A83/B109_). Therefore, $\mathcal{M}_C$ imposes a conceptual structure onto a problem domain or desired functionality. Specifically, it contains: i) the system’s high-level objectives (_e.g._, the form of loss functions); ii) the theoretical assumptions guiding its operation (_e.g._, assumptions about data and learning processes); iii) the selected algorithms and data structures; and iv) the overall formal description of the system, acting as Kantian schemata that mediate between pure concepts and observations.
 
-$\mathcal{M}_C$ is a necessary abstraction (e.g., "attention") formalized by logic in AI systems (e.g., "is all you need"). This logical framework enables structured human thought to engage with complex realities, allowing designers to specify an AI’s intended knowledge, reasoning, and behaviors . Although the logical formalisms of the abstract $\mathcal{M}_C$ may not fully predict or constrain the complex behaviors of these systems in operation (especially since LLMs’ actual behaviors can largely diverge from the expected logical design, see Section 3), acknowledging its limitations does not diminish its importance. It constitutes the logical starting point, becoming the vital reference benchmark for evaluating behavior deviation, diagnosing system failures, and understanding unexpected problems.
+$\mathcal{M}_C$ is a necessary abstraction (_e.g._, "attention") formalized by logic in AI systems (_e.g._, "is all you need"). This logical framework enables structured human thought to engage with complex realities, allowing designers to specify an AI’s intended knowledge, reasoning, and behaviors . Although the logical formalisms of the abstract $\mathcal{M}_C$ may not fully predict or constrain the complex behaviors of these systems in operation (especially since LLMs’ actual behaviors can largely diverge from the expected logical design, see Section 3), acknowledging its limitations does not diminish its importance. It constitutes the logical starting point, becoming the vital reference benchmark for evaluating behavior deviation, diagnosing system failures, and understanding unexpected problems.
 
 **Definition 2.3 $\mathcal{M}_I$ (Instantiated Model)**
 
@@ -104,16 +104,16 @@ Under this definition, $\mathcal{M}_I$ is a Tabula Rasa (Blank Slate). It contai
 
 - Determined Architecture and Code: Specific number of layers, dimensions of attention heads, choice of activation functions, etc.
 
-- Initial State: Initial parameter values generated according to a specific distribution (e.g., random or orthogonal initialization).
+- Initial State: Initial parameter values generated according to a specific distribution (_e.g._, random or orthogonal initialization).
 
-- Optimization Configuration: Hyperparameter settings that make learning possible (e.g., optimizer type, learning rate strategy).
+- Optimization Configuration: Hyperparameter settings that make learning possible (_e.g._, optimizer type, learning rate strategy).
 
-- Crucially, $\mathcal{M}_I$ possesses the "capacity to learn" but has not yet started learning. It is an empty container whose structure is determined by $\mathcal{M}_C$, but its interior does not yet contain any information from the empirical world (data). It is "the possibility before it becomes something."
+Crucially, $\mathcal{M}_I$ possesses the "capacity to learn" but has not yet started learning. It is an empty container whose structure is determined by $\mathcal{M}_C$, but its interior does not yet contain any information from the empirical world (data). Meanwhile, small variations in architecture or minor differences in initialization can send the model down different optimization paths, leading to distinct Reachable Models with varying capabilities and biases. These early decisions and their non-obvious influences on the model’s development represent the first steps in a gradual departure from the original concept, significantly contributing to the well-known “black-box” problem.
 
 **Definition 2.4 $\mathcal{M}_R$ (Reachable Model)**
 
 The Reachable Model is the final product of $\mathcal{M}_I$ after being optimized by a specific dataset, in the state where parameters are solidified. It is the concrete entity formed by the collapse of $\mathcal{M}_I$ interacting with massive amounts of data.
-$\mathcal{M}_R$ is not just a static collection of parameters; it is the physical carrier of the Behavioral Manifold. It contains the complete spectrum of behavior the model can exhibit under all possible valid inputs.
+$\mathcal{M}_R$ is not just a static collection of parameters; it is the physical carrier of the Behavioral Manifold. More broadly, it encompasses the full spectrum of potential behaviors and internal stochastic processes (_e.g._, sampling strategies) that the optimized model could exhibit across all possible valid inputs. That is:
 
 - Totality of Behavior: $\mathcal{M}_R$ contains all abilities acquired by the model, including Emergent Abilities unforeseen by designers, as well as potential hallucinations or harmful biases.
 - Black Box Nature: The training process transforms the transparent architecture ($\mathcal{M}_I$) into an opaque complex system ($\mathcal{M}_R$). Due to the non-convex optimization nature of deep learning, $\mathcal{M}_R$ often deviates from the logical predictions of $\mathcal{M}_C$, becoming a true "Black Box."
@@ -124,15 +124,13 @@ In short, $\mathcal{M}_R$ is the "solidified reality" formed by $\mathcal{M}_I$ 
 
 The Observable Model is not merely a passive subset of $\mathcal{M}_R$; it is the Sole Causal Interface through which $\mathcal{M}_R$ interacts with the external world (humans or environments).
 
-Cognitive Bottleneck & Dimensional Projection: $\mathcal{M}_R$ is a high-dimensional, non-linear behavioral manifold, but $\mathcal{M}_O$ must force it to collapse into low-dimensional scalars (like accuracy scores) or linear symbol streams (Token Streams) through specific benchmarks or interaction protocols. This projection inevitably loses the vast majority of topological structure information from $\mathcal{M}_R$. Therefore, $\mathcal{M}_O$ constitutes our fundamental cognitive bottleneck, we can only ever see a low-dimensional projection of a high-dimensional entity.
+- Cognitive Bottleneck & Dimensional Projection: $\mathcal{M}_R$ is a high-dimensional, non-linear behavioral manifold, but $\mathcal{M}_O$ must force it to collapse into low-dimensional scalars (like accuracy scores) or linear symbol streams (Token Streams) through specific benchmarks or interaction protocols. This projection inevitably loses the vast majority of topological structure information from $\mathcal{M}_R$. Therefore, $\mathcal{M}_O$ constitutes our fundamental cognitive bottleneck, we can only ever see a low-dimensional projection of a high-dimensional entity.
 
 Control Lever of Evolution: More critically, in the modern AI paradigm, $\mathcal{M}_O$ is the sole starting point for back-propagating optimization signals (Gradients). What abilities "exist" in the system depend on what performance we "reward" at the $\mathcal{M}_O$ level. $\mathcal{M}_O$ not only defines what we can see but also retroactively defines the legitimate boundaries of the system's evolution. It is the control valve connecting human intent and machine entity.
 
 ## Evolution of Model Conceptualizations
 
-The concept of "Model" in machine learning is not static; it has undergone a process of continuous differentiation and evolution. This differentiation reflects the widening distance between $\mathcal{M}_I$ (as the Form/Blank Slate) and $\mathcal{M}_R$ (as the Content/Artifact). When the capability scope of AI systems expands significantly, the originally tightly coupled layers undergo "crystallization" and separate.
-
-Below, we show the evolution of these hierarchical relationships across different development stages of models.
+The concept of "Model" in machine learning is not static; it has undergone a process of continuous differentiation and evolution. This differentiation reflects the widening distance among the models. When the capability scope of AI systems expands significantly, the originally tightly coupled layers undergo "crystallization" and separate. Below, we show the evolution of these hierarchical relationships across different development stages of models.
 
 **Conceptual Model Differentiation (e.g. Naive Bayes and Decision Trees)**
 
