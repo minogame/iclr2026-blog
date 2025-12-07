@@ -102,7 +102,7 @@ $\mathcal{M}_C$ is a necessary abstraction (e.g., "attention") formalized by log
 The Instantiated Model refers to the specific algorithmic artifact implemented in code and existing in a computational environment, but before touching any training data. $\mathcal{M}_I$ is pure Form and Mechanism.
 Under this definition, $\mathcal{M}_I$ is a Tabula Rasa (Blank Slate). It contains:
 
-Determined Architecture and Code: Specific number of layers, dimensions of attention heads, choice of activation functions, etc.
+- Determined Architecture and Code: Specific number of layers, dimensions of attention heads, choice of activation functions, etc.
 
 - Initial State: Initial parameter values generated according to a specific distribution (e.g., random or orthogonal initialization).
 
