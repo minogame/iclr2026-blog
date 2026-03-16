@@ -254,7 +254,7 @@ Therefore, the future of AI Alignment cannot stop at making models "obedient." W
 
 ## Acknowledgements
 
-This work was supported by Project JP26wm0625405. The author would like to thank Kentaro Inui, Benjamin Heinzerling, Chao Li for the helpful discussions and comments on the first version of the manuscript.
+This work was supported by the AMED Project (grant ID JP26wm0625405). The author would like to thank Kentaro Inui, Benjamin Heinzerling, Chao Li for the helpful discussions and comments on the first version of the manuscript.
 
 ## Appendix: Extended Epistemological Discussions
 
