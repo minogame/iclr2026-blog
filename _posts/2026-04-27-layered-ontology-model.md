@@ -1,7 +1,7 @@
 ---
 layout: distill
 title: The Layered Ontology of Models, Resolving the Epistemological Crisis of AI
-description: We propose a five-layer model framework and discuss the concepts of Meaning and Truth in the era of large models through two thought experiments.
+description: I propose a five-layer model framework and discuss the concepts of Meaning and Truth in the era of large models through two thought experiments.
 date: 2026-04-27
 future: true
 htmlwidgets: true
@@ -13,14 +13,14 @@ mermaid:
   zoomable: true
 
 # Anonymize when submitting
-authors:
-  - name: Anonymous
-
 # authors:
-#   - name: Albert Einstein
-#     url: "https://en.wikipedia.org/wiki/Albert_Einstein"
-#     affiliations:
-#       name: IAS, Princeton
+#   - name: Anonymous
+
+authors:
+  - name: Zhun Sun
+    url: "https://minogame.github.io/"
+    affiliations:
+      name: Center for Language AI Research, Tohoku University
 #   - name: Boris Podolsky
 #     url: "https://en.wikipedia.org/wiki/Boris_Podolsky"
 #     affiliations:
@@ -75,11 +75,11 @@ _styles: >
 
 With the rapid development of modern Artificial Intelligence, especially the emergence of Large Language Models (LLMs), we face a growing epistemological crisis: our engineering capabilities have far surpassed our philosophical vocabulary. We have built systems that demonstrate emergent reasoning abilities, yet we struggle to articulate exactly what we have built. The traditional naming convention, _e.g._, lumping code, parameters, and behaviors together as a "Model", is no longer sufficient. It fails to capture the widening gap between human design intent and the resulting behavioral artifacts. Current discussions often oscillate between two extremes: a reductionist view that dismisses these systems as merely "stochastic parrots," and an anthropomorphic view that prematurely attributes consciousness to them. Both views stem from a lack of structural granularity when defining the ontological status of AI agents.
 
-This paper proposes to solve this problem through a "Five-Layer Model Hierarchy Ontology." Inspired by systems theory and cognitive science<d-cite key="floridi2008method"></d-cite><d-cite key="marr2010vision"></d-cite>, we deconstruct the concept of a "Model" into five distinct layers: the Noumenal Model ($\mathcal{M}_N$), the Conceptual Model ($\mathcal{M}_C$), the Instantiated Model ($\mathcal{M}_I$), the Reachable Model ($\mathcal{M}_R$), and the Observable Model ($\mathcal{M}_O$). By tracing the evolution of these layers from classical machine learning to foundation models, we reveal how the transition from "Tabula Rasa" (blank slate) to "Artifact" has fundamentally changed. Furthermore, we apply this framework to reconstruct two classic philosophical problems, namely the nature of meaning (via the "Stochastic Chinese Room") and the nature of truth (via the "Paradox of the Two Poetics"), demonstrating that the essence of synthetic intelligence lies not in biological mimicry, but in the topological structure of statistical manifolds.
+This paper proposes to solve this problem through a "Five-Layer Model Hierarchy Ontology." Inspired by systems theory and cognitive science<d-cite key="floridi2008method"></d-cite><d-cite key="marr2010vision"></d-cite>, I deconstruct the concept of a "Model" into five distinct layers: the Noumenal Model ($\mathcal{M}_N$), the Conceptual Model ($\mathcal{M}_C$), the Instantiated Model ($\mathcal{M}_I$), the Reachable Model ($\mathcal{M}_R$), and the Observable Model ($\mathcal{M}_O$). By tracing the evolution of these layers from classical machine learning to foundation models, I reveal how the transition from "Tabula Rasa" (blank slate) to "Artifact" has fundamentally changed. Furthermore, I apply this framework to reconstruct two classic philosophical problems, namely the nature of meaning (via the "Stochastic Chinese Room") and the nature of truth (via the "Paradox of the Two Poetics"), demonstrating that the essence of synthetic intelligence lies not in biological mimicry, but in the topological structure of statistical manifolds.
 
 ## The Hierarchical Ontology of Models
 
-To address the complexity of modern AI systems (especially LLMs), we need to deconstruct and reorganize the concept of a "Model" into a five-layer ontological framework. This framework is inspired by hierarchical analysis in systems theory and cognitive science, aiming to distinguish between abstract design, physical implementation, and emergent behavior. We propose the following layer definitions, focusing on distinguishing the mechanism capable of learning from the behavioral entity after learning:
+To address the complexity of modern AI systems (especially LLMs), we need to deconstruct and reorganize the concept of a "Model" into a five-layer ontological framework. This framework is inspired by hierarchical analysis in systems theory and cognitive science, aiming to distinguish between abstract design, physical implementation, and emergent behavior. I propose the following layer definitions, focusing on distinguishing the mechanism capable of learning from the behavioral entity after learning:
 
 **Definition 2.1 $\mathcal{M}_N$ (Noumenal Model)**
 
@@ -128,9 +128,9 @@ The Observable Model is not merely a passive subset of $\mathcal{M}_R$; it is th
 
 Control Lever of Evolution: More critically, in the modern AI paradigm, $\mathcal{M}_O$ is the sole starting point for back-propagating optimization signals (Gradients). What abilities "exist" in the system depend on what performance we "reward" at the $\mathcal{M}_O$ level. $\mathcal{M}_O$ not only defines what we can see but also retroactively defines the legitimate boundaries of the system's evolution. It is the control valve connecting human intent and machine entity.
 
-## Evolution of Model Conceptualizations
+## Historical Differentiation of the Ontology Layers
 
-The concept of "Model" in machine learning is not static; it has undergone a process of continuous differentiation and evolution. This differentiation reflects the widening distance among the models. When the capability scope of AI systems expands significantly, the originally tightly coupled layers undergo "crystallization" and separate. Below, we show the evolution of these hierarchical relationships across different development stages of models.
+The concept of "Model" in machine learning is not static; it has undergone a process of continuous differentiation and evolution. This differentiation reflects the widening distance among the models. When the capability scope of AI systems expands significantly, the originally tightly coupled layers undergo "crystallization" and separate. Below, I show the evolution of these hierarchical relationships across different development stages of models.
 
 **Conceptual Model Differentiation (e.g. Naive Bayes and Decision Trees)**
 
@@ -205,7 +205,7 @@ Ultimately, it is precisely due to the intervention of the Observer, through the
 
 ### The Nature of Meaning in Probability
 
-The evolutionary narrative brings us to an ontological cliff: if the operator (Subject/Algorithm) is blind, and the dice (Object/Model) are physical, where exactly does "Meaning" reside? We propose that the meaning of synthetic intelligence does not originate from the Subject's Intent, but from Topological Isomorphism.
+The evolutionary narrative brings us to an ontological cliff: if the operator (Subject/Algorithm) is blind, and the dice (Object/Model) are physical, where exactly does "Meaning" reside? I propose that the meaning of synthetic intelligence does not originate from the Subject's Intent, but from Topological Isomorphism.
 
 First, linguistically, this system presents itself as a peculiar entity with a Surplus of _Sense (Sinn)_ and a Void of _Reference (Bedeutung)_ <d-cite key="frege1892sinn"></d-cite>. Borrowing Gottlob Frege's distinction, the reachable model perfectly masters the internal relationships between symbols, thus possessing an extremely high density of internal logical consistency. However, due to severing the causal link with noumenon (the real world), this symbol system is thoroughly Self-referential. It cannot point to the real sun or apple outside the room. This constitutes a "Free-floating Symbol Universe," proving a counter-intuitive conclusion: even without _Reference_, an extremely complex network of _Sense_ (syntactic structure) is sufficient for the emergence of what appears to be profound "Meaning."
 
@@ -238,7 +238,7 @@ This dilemma of choosing between the Real Manuscript and the Synthetic Version i
 
 In the LLM era, when we cannot reach the Noumenal world (i.e., we cannot know if a truth statement corresponds to facts in the external world), the traditional view of truth following the Correspondence Theory is forced to shift to the Coherence Theory: as long as a statement is self-consistent within the logical manifold of $\mathcal{M}_R$, we tend to accept it as "True." This shift leads to the "Involution of Truth", which means we no longer explore the unknown reality outward, but mine known logic inward. This makes synthetic knowledge perfect, yet it can never provide the "accidents" from $\mathcal{M}_N$ that break existing logic and drive paradigm shifts.
 
-In this framework of Coherence Theory, we must redefine the ontological status of "Hallucination." Traditional views regard it as a "mistake" of the model, but we argue that Hallucination is a Structural Necessity. For $\mathcal{M}_I$ (Mechanism), generating a "Perfect Fake" and generating a "Broken Real" are computationally equivalent path-searching processes; the model cannot distinguish between "Historical Fact" and "High-Probability Fiction." So-called "Hallucination" is often the result of the model being too faithful to Logic ($\mathcal{M}_R$) and betraying Reality ($\mathcal{M}_N$).
+In this framework of Coherence Theory, we must redefine the ontological status of "Hallucination." Traditional views regard it as a "mistake" of the model, but I argue that Hallucination is a Structural Necessity. For $\mathcal{M}_I$ (Mechanism), generating a "Perfect Fake" and generating a "Broken Real" are computationally equivalent path-searching processes; the model cannot distinguish between "Historical Fact" and "High-Probability Fiction." So-called "Hallucination" is often the result of the model being too faithful to Logic ($\mathcal{M}_R$) and betraying Reality ($\mathcal{M}_N$).
 
 If we are willing to admit the inevitability of hallucination and cannot always return to $\mathcal{M}_N$ for verification, we need a new standard for evaluating truth, such as _Topological Robustness_. We no longer ask "Did it happen?" (Archaeological view), but "Does it hold up to scrutiny?" (Synthetic view). If a concept appears not just in a single Prompt, but maintains the Isomorphism of its logical structure under multi-language, multi-perspective, and multi-context Adversarial Interrogation, then it possesses "Synthetic Truth." In the AI era, Truth is no longer a static object of excavation, but a dynamic result of stress testing; "True" is the fixed point in the logical manifold that is most solid and hardest to destroy by perturbation.
 
@@ -251,3 +251,23 @@ Through the phenomenological reconstruction of the "Stochastic Chinese Room," we
 However, the core warning of this paper lies in the Dual Reign of the $\mathcal{M}_O$. We are falling into a dangerous epistemological closed loop: our observation tools not only physically prune the potential of models (Goodhart’s Collapse), but philosophically impoverish our definition of intelligence (Epistemic Retrofitting). Our greatest risk is not creating uncontrollable super-intelligence, but creating a closed "Hyperreal" illusion. We say a fantasy where only what can be measured by benchmarks is called intelligence, and only what fits logical expectations is called truth, while the chaotic but real noumenal world is systematically forgotten.
 
 Therefore, the future of AI Alignment cannot stop at making models "obedient." We must wake up from the dream of functionalism and embrace _Structural Realism_. The task for the future lies in expanding our observational bandwidth, by evolving from passive test graders to adversarial interrogators of the manifold. Only when we have the ability to identify and verify those structures that are "statistically improbable but logically robust" can we ensure that this colossal artifact named the "Reachable Model" serves as a telescope into a deeper reality, rather than a mirror merely reflecting our own biases.
+
+## Acknowledgements
+
+This work was supported by Project JP26wm0625405. The author would like to thank Kentaro Inui, Benjamin Heinzerling, Chao Li for the helpful discussions and comments on the first version of the manuscript.
+
+## Appendix: Extended Epistemological Discussions
+
+The proposed five-layer ontology provides a foundational structure for analyzing the AI epistemological crisis. However, the rapid evolution of machine learning necessitates a continuous stress-testing of this framework against contemporary discourse. In this appendix, I expand upon several critical theoretical dimensions based on valuable feedbacks from the reviewers of this blog.
+
+### A. Grounding the Epistemological Crisis
+
+The necessity of deconstructing the term "Model" extends beyond mere semantic clarity; it is a prerequisite for resolving the current ongoing debate in AI discourse. Currently, debates regarding AI capabilities frequently oscillate between two extremes. On one side is the reductionist view, famously encapsulated by the "stochastic parrots" argument<d-cite key="bender2021dangers"></d-cite>, which views AI merely as a mechanism for interpolating training data. On the other side is the anthropomorphic perspective, which increasingly debates the potential for emergent sentience or consciousness in high-parameter models <d-cite key="chalmers2023could"></d-cite>.Our five-layer ontology demonstrates that this tension arises from a collapse of structural granularity. The reductionist view fundamentally describes the Instantiated Model ($\mathcal{M}_I$) and the training objective, while the anthropomorphic view is reacting to the emergent topological complexities of the Reachable Model ($\mathcal{M}_R$) as perceived through the Observable Model ($\mathcal{M}_O$). Furthermore, unlike historical ambiguities in cognitive science where "models" were attempts to map human behavior, the ambiguity in AI carries profound safety and alignment implications. When an organization claims to "open-source a model," the fundamental difference between releasing the architectural blueprint ($\mathcal{M}_I$), the fully optimized parameter weights ($\mathcal{M}_R$), or merely an API endpoint ($\mathcal{M}_O$) is vast. This framework provides the precise vocabulary needed to navigate these distinctions.
+
+## B. Active Inference and the Generation of Empirical Shadows
+
+A critical bridge to construct within this framework is the mechanism by which the unknowable Noumenal Model ($\mathcal{M}_N$) translates into the training environment for $\mathcal{M}_I$. We can define this process as the _Empirical Projection_, where the underlying causal structure of reality collapses into measurable, discrete datasets. Data, therefore, is merely the epistemological shadow of $\mathcal{M}_N$.This dynamic provides a profound update to the "Stochastic Chinese Room" argument when viewed through the lens of Karl Friston’s Active Inference<d-cite key="friston2017active"></d-cite>. The evolution of the room (the adjustment of the dice) is not merely statistical curve-fitting; it is the physical mechanism of a system minimizing its variational free energy to maintain its internal ontology against surprise. Meaning, therefore, emerges not from a static translation of symbols, but from the dynamic necessity of the system to align its internal probabilistic structure ($\mathcal{M}_R$) with the empirical shadows cast by the external world ($\mathcal{M}_N$).
+
+## C. Fluid Manifolds, Modern Architectures, and the "Symbolic Fall"
+
+A valid concern when applying a rigid, historically grounded five-layer ontology to modern AI is the risk of a "Symbolic Fall". That is, the failure of predefined philological categories to capture the fluid, high-dimensional latent manifolds of contemporary systems. I explicitly acknowledge this limitation, scale and complexity exacerbate the ontological rift, and any discrete taxonomy will inevitably struggle to perfectly formalize the continuous, non-linear dynamics of modern architectures. However, the imperfection of the map does not justify abandoning navigation. While this framework may face descriptive friction when confronted with the high-dimensional attention manifolds of massive Transformers, the latent state dynamics in State Space Models, or the complex reward-shaping behaviors of advanced reinforcement learning, it remains an indispensable heuristic. Surrendering this structural epistemology would leave us conceptually defenseless, forcing a regression into the false dichotomy of reductionism ("stochastic parrots") versus anthropomorphism ("sentience"). Therefore, the framework should be understood not as a rigid mathematical constraint, but as a crucial diagnostic tool. It provides a necessary scaffold—a pragmatic baseline—that allows us to precisely locate where and how human intent ($\mathcal{M}_C$) diverges from the synthetic artifact ($\mathcal{M}_R$). In fact, modern AI research actively attempts to address this exact divergence. Frameworks such as Yann LeCun’s JEPA can be interpreted through as a sophisticated attempt to pull the Conceptual Model ($\mathcal{M}_C$) closer to the Noumenal Model ($\mathcal{M}_N$). By focusing on underlying state transitions rather than surface-level token prediction, JEPA endeavors to build an $\mathcal{M}_R$ whose topological structure corresponds more faithfully to the causal mechanisms of reality. Ultimately, while the ontology must remain flexible, it provides the essential vocabulary needed to articulate our growing disconnect with the systems we build.
